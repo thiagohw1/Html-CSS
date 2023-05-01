@@ -1,0 +1,222 @@
+
+header{
+    height: 100px;
+    width: 100%;
+    background: #cccccc;
+    margin: 0 auto;
+}
+.header-topo{
+    width: 60%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
+}
+
+header h1{
+    font-size: 28px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    float: left;
+    margin-top: 35px;
+}
+nav{
+    text-align: right;
+    width: 70%;
+    margin-top: 37px;
+    float: right;
+}
+nav a{
+    color: #000000;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+.main-banner{
+    margin-top: -7px;
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border: 5px solid black;
+
+}
+
+.novidades{
+    height:auto;
+    width: 100%;
+    background-color: rgb(242, 244, 244);
+
+}
+
+.novidades h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+
+    padding: 40px;
+    
+}
+.novidades ul{
+    margin: auto;
+}
+
+.novidades ul li{
+    display: inline-block;
+    border: 0px solid black;
+}
+.box{
+    display:flex;
+    text-align: center;
+}
+.box a{
+    text-decoration: none;
+}
+.box li{
+    background-color: #cccccc;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.comprar{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #616161;
+    color: white;
+}
+.box li:hover{
+    box-shadow: 5px 5px 10px #616161;
+}
+.box li p{
+    margin-top: 5px;
+}
+
+.nov-img img{
+    width: 300px;
+}
+.nov-dados{
+    font-weight: bold;
+    padding: 10px;
+}
+.nov-dados-descricao{
+    color: #000000;
+}
+.nov-dados-preco{
+    text-align: center;
+    font-size: 24px;
+    color: orangered;
+}
+
+
+.contato{
+    margin: 100px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+.contato p{
+    margin: -2px;
+
+}
+.formulario{
+    margin: 0 auto;
+    width: 100%;
+
+}
+form{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+form input{
+    display: block;
+    width: 500px;
+    margin: 10px 5px 0 0;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;  
+}
+.textarea{
+    display: block;
+    width: 500px;
+    margin-top:10px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;  
+
+}
+
+.botao-enviar-form{
+    background-color: darkorange;
+    color: #ffffff;
+}
+
+
+footer{
+    background-color: #616161;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+footer ul li{
+    font-size: 14px;
+    margin: 0 5px;
+    display: inline-block;
+    text-align: center;
+}
+footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.direitos{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.desenvolvimento{
+    font-size: 14px;
+    margin-top: -15px;
+}
+.desenvolvimento a{
+    color: red;
+    text-decoration: none;
+}.desenvolvimento a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.nome-produto-info{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+
+}
+.info-produto{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    width: 70%;
+    min-width: 900px;
+    display: flex;
+    padding: 60px;
+    background-color: #ccc;
+}
+
+.info-produto-img{
+
+}
+.info-produto-informacoes{
+    margin-left: 50px;
+}

@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #cccccc;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 20px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    font-family: Gill Sans, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-shadow: #000000 1px 1px 20px;
+}
+
+.produtos{
+    width: 940px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.produtos h2{
+    font-weight: bold;
+    font-size: 22px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    
+}
+.produtos li:hover{
+    border-color: goldenrod;
+    color: darkgoldenrod;
+    border: solid 2px;
+}
+
+.produtos li:active{
+    border-color: seagreen;
+}
+.produtos li:hover h2{
+    font-size: 22px;
+}
+.preco-produto{
+    font-size:22px;
+    font-weight:bold;
+    margin: 10px 0 0 0;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background:  url('../img/bg.jpg');
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size:13px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    width: 50%;
+    color: dimgray;
+    border-radius: 5px;
+    border: solid 1px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
