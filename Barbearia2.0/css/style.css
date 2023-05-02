@@ -98,10 +98,12 @@ footer{
 
 main{
 
-
 }
-
-form{
+.formulario{
+    width: 940px;
+    margin: 40px auto;
+}
+main form{
     margin: 40px 0;
 
 }
