@@ -211,14 +211,11 @@ thead{
 .itens{
     line-height: 1.5;
 }
-
-.itens:first-child{
-    font-weight: bold;
+.itens:before{
+    content: "★";
+    margin-right: 5px;
 }
 
-.itens:last-child{
-    font-weight: bold;
-}
 
 .imagem-beneficios{
     width: 60%;
