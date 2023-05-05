@@ -86,7 +86,7 @@ nav a:hover{
 footer{
     text-align: center;
     background:  url('../img/bg.jpg');
-    padding: 40px;
+    padding: 10px;
 }
 
 .copyright{
@@ -97,14 +97,18 @@ footer{
 }
 
 main{
+    
 
 }
 .formulario{
     width: 940px;
     margin: 40px auto;
+
 }
 main form{
     margin: 40px 0;
+
+
 
 }
 
@@ -147,7 +151,8 @@ form label, form legend{
     
 }
 table{
-    margin: auto;
+    margin: 20px auto; 
+
 }
 table th ,tr, td{
     padding: 10px;
@@ -229,7 +234,7 @@ thead{
 
 .beneficios{
     padding: 3em 0;
-    background: #888888;
+    background: #c7c6c6;
 
 }
 .mapa-conteudo{
@@ -237,7 +242,7 @@ thead{
     margin: 0 auto;
 }
 .mapa{
-    background: linear-gradient(#fefefe,#888888);
+    background: linear-gradient(#fefefe,#c7c6c6);
     padding: 3em 0;
 
 }
@@ -264,6 +269,7 @@ thead{
     nav {
         position: static;
         text-align: center;
+        padding-bottom: 10px;
     }
 
     .lista-beneficios, .imagem-beneficios {
