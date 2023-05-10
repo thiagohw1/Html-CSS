@@ -121,17 +121,26 @@ body{
 
 .cartao-conteudo{
     padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
 
+}
+
+.cartao-destaque{
+    grid-column: span 2;
 }
 
 .cartao-titulo{
     font-size: 1.2rem;
     font-weight: 700;
+    grid-column: span 2;
 }
 
 .cartao-perfil{
     color: #95999c;
     font-size: 0.9rem;
+    grid-column: span 2;
 
 }
 
@@ -141,11 +150,11 @@ body{
     color: #95999c;
 }
 
-.cartao-info--tempo{
+.cartao-info--tempo::before{
     content: '\e90c';
     margin-right: 8px;
 }
-.cartao-info--visualização{
+.cartao-info--visualizacao::before{
     content: '\e90f';
     margin-right: 8px;
 }
@@ -161,14 +170,15 @@ body{
     font-size: 0.9rem;
 }
 
-.cartao-botao--play{
+.cartao-botao--play::before{
     content: '\e90b';
     font-size: 24px;
 
 }
 
 .cartao-botao--destaque{
-     width: 100%;
+    width: 100%;
+    grid-column: span 2;
 
 }
 
