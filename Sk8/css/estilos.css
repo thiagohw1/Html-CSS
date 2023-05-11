@@ -105,6 +105,8 @@ body{
 
 .principal{
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina{
@@ -129,6 +131,10 @@ body{
 
 .cartao-destaque{
     grid-column: span 2;
+}
+
+.cartao--destaque{
+    margin-bottom: 16px;
 }
 
 .cartao-titulo{
