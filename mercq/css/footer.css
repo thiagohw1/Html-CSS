@@ -1,0 +1,17 @@
+footer{
+    height: 500px;
+    width: 100%;
+    background-image: radial-gradient(120deg, #fff, #fff);
+    scroll-behavior: smooth;
+    
+}
+
+.footer-content{
+    padding: 50px;
+    background-image: linear-gradient(#fd8844be,#ff6e1b);
+    height: 100%;
+    color: #fff;
+    justify-content: center;
+
+}
+

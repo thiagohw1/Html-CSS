@@ -7,9 +7,9 @@
 section{
     height: auto;
     width: 100%;
-    background-color: brown;
-    /* margin-bottom: 10px; */
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.377);
+    background-color: rgba(179, 179, 179, 0.274);
+    margin-bottom: 0px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.158);
 }
 
 #section1{
@@ -59,3 +59,118 @@ section{
 .section-direita-img{
     height: 500px;
 }
+
+.section2{
+    
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-image:linear-gradient(180deg,#ff8843, rgba(252, 114, 34, 0.8),#ff8843);
+}
+
+.section2 h1{
+    font-size: 36pt;
+    margin-top: 20px;
+}
+
+.section2 h2{
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.section2 button{
+    cursor: pointer;
+    width: 450px;
+    height: 50px;
+    margin: 40px 0 0 0;
+    border-radius: 25px;
+    background-color: var(--azulescruto);
+    border: none;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #fff;
+    transition: 500ms;
+}
+
+.section2 button:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+    box-shadow: 10px 10px 10px 10px #00000056;
+}
+.section3{
+    border-left: solid 30px rgb(255, 204, 137);
+    padding: 50px;
+    
+
+}
+.section3 h1, .section4 h1{
+    text-align: center;
+    font-size: 48pt;
+    margin: 30px;
+}
+.section3-content{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    display: flex;
+
+}
+.section3 p{
+    padding: 30px;
+    width: 100%;
+}
+.section3-content img{
+    float: right;
+    width: 50%;
+    margin: 15px 0 0 15px;
+}
+
+
+.section4{
+    height: 100vh;
+    border-left: solid 30px var(--laranja);
+    border-right: solid 0 var(--laranja);
+    padding: 50px 0;
+}
+
+.section4 h2{
+    font-size: 24pt;
+    text-align: center;
+}
+
+
+.section5{
+    border-left: solid 30px red;
+    
+}
+.section3, .section4, .section5, .section6, .section7, .section8{
+    height: 100vh;
+    width: 100%;
+    margin: 45px 0;
+}
+
+.section5 h1, .section6 h1, .section7 h1, .section8 h1{
+    font-size: 48pt;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.section6{
+    border-left: solid 30px var(--azulclaro);
+}
+
+.section7{
+    border-left: solid 30px green;
+}
+
+
+/* .section-botao-topo-link{
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 44pt;
+}*/
