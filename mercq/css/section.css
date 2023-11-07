@@ -61,7 +61,7 @@ section{
 }
 
 .section2{
-    
+
     color: #fff;
     padding: 40px;
     text-align: center;
@@ -73,6 +73,7 @@ section{
 .section2 h1{
     font-size: 36pt;
     margin-top: 20px;
+    
 }
 
 .section2 h2{
@@ -138,6 +139,7 @@ section{
 .section4 h2{
     font-size: 24pt;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -150,6 +152,35 @@ section{
     width: 100%;
     margin: 45px 0;
 }
+
+.section5-content{
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+}
+
+.section5-card{
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+}
+#section5-card1{
+    background: #265ce581;
+}
+#section5-card2{
+    background: #e5262688;
+}
+#section5-card3{
+    background: #d8e52681;
+}
+#section5-card4{
+    background: #53e5267e;
+}
+#section5-card5{
+    background: #e57c2685;
+}
+
 
 .section5 h1, .section6 h1, .section7 h1, .section8 h1{
     font-size: 48pt;
