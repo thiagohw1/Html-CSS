@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 .header-wrap{
-    /* position: fixed; */
-    background-color: #ececec;
+    background-color: #EAEAEA;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -16,13 +15,14 @@
 
 }
 
+
 .header-logo{
     display: flex;
 }
 
 .header-logo-img{
     margin: 20px;
-    height: 160px;
+    height: 140px;
 }
 
 

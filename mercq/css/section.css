@@ -9,7 +9,7 @@ section{
     width: 100%;
     background-color: rgba(179, 179, 179, 0.274);
     margin-bottom: 0px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.158);
+    /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.158); */
 }
 
 #section1{
@@ -45,10 +45,16 @@ section{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    border: solid 5px #fff;
-    border-radius: 9px;
+    border: solid 1px #fff;
+    border-radius: 20px;
     color: #fff;
-    background-color: var(--azulescruto);
+    background-color: var(--laranja);
+    cursor: pointer;
+    transition: 500ms;
+}
+.section1-button:hover{
+    transform: scale(1.2);
+    transition: 500ms;
 }
 .section1-direita{
     width: 40%;
@@ -150,7 +156,7 @@ section{
 .section3, .section4, .section5, .section6, .section7, .section8{
     height: 100vh;
     width: 100%;
-    margin: 45px 0;
+    margin: 0px 0;
 }
 
 .section5-content{
@@ -183,7 +189,7 @@ section{
 
 
 .section5 h1, .section6 h1, .section7 h1, .section8 h1{
-    font-size: 48pt;
+    font-size: 36pt;
     text-align: center;
     padding: 30px;
 }
@@ -205,3 +211,60 @@ section{
     font-family:'Courier New', Courier, monospace;
     font-size: 44pt;
 }*/
+
+
+.section8{
+    border-left: solid 30px black;
+}
+
+
+.section8-content{
+    text-align: center;
+    margin: auto;
+
+}
+.section8-content form{
+    
+    padding: 30px;
+}
+.section8-input, #section8-text-area{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    padding: 20px 0 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px #33333370;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #696969;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section8-content input:focus, #section8-text-area:focus{
+    outline: solid 1px rgba(0, 0, 0, 0.164);
+    
+}
+
+
+.section8-botao{
+    background: var(--azulescruto);
+    border: none;
+    width: 180px;
+    height: 50px;
+    margin: 25px;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    font-weight: 100;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.363);
+    transition: 500ms;
+    cursor: pointer;
+    
+}
+
+.section8-botao:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
