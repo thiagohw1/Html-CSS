@@ -215,6 +215,9 @@ section{
 
 .section7{
     border-left: solid 30px green;
+    background-image: url(../img/bg/bg2.jpg);
+    background-size:cover;
+
 }
 
 
