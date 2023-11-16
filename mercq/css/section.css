@@ -171,6 +171,20 @@ section{
     padding: 20px;
     width: 25%;
 }
+
+.section5-banner{
+    position: relative;
+}
+.section5-banner span{
+    width: 100%;
+    position: absolute;
+}
+
+.promoflag{
+    background: url(../img/promoflag.png);
+    float: right;
+    position: relative;
+}
 #section5-card1{
     background: #265ce581;
 }
